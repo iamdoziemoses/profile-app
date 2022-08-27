@@ -1,0 +1,52 @@
+.profile-start img {
+  border-radius: 25px;
+}
+
+.profile-title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  padding-left: 1rem;
+}
+
+.profile-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ff7722;
+  padding: 0 1rem;
+}
+
+.profile-data h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.button-con {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.view-button {
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  background-color: #660099;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.view-button a {
+     color: white;
+}
+
+.view-button:hover {
+  background-color: #2b0e3a;
+  transform: scale(1.02);
+}
